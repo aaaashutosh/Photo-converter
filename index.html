@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+<header>
+    <h1>Photo Converter 1200*720 px JPG</h1>
+</header>
+<div class="container">
+    <div class="drop-area" id="drop-area">
+        <p>Drag and Drop your photo here, or click to select</p>
+        <input type="file" id="file-input" accept="image/*" style="display: none;">
+    </div>
+    <div class="preview" id="preview">
+        <h2>Preview (1200x720 px)</h2>
+        <img id="image-preview" alt="Preview Image">
+    </div>
+    <button id="download-btn">Download Resized Image</button>
+    <div class="error-message" id="error-message"></div>
+</div>
+
+<footer>
+    ©️ Developed by: Aashutosh Khatiwada | 2025 All rights reserved.
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
